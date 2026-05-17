@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Environment files
+.env
+.env.*
+
+# Local modules and apps
+civil_alert_system/
+mobile_app/
+admin_web/.env
+admin_web/.env.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
